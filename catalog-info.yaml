@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: site-1
+  description: site-1
+  annotations:
+    github.com/project-slug: backstage-test-org-orkohunter/site-1
+spec:
+  type: website
+  lifecycle: experimental
+  owner: backstage-test-org-orkohunter
